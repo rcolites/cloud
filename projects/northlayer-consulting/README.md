@@ -16,7 +16,7 @@ The purpose is to practice AWS Networking concepts.
 | Destination | Target |
 |-------------|--------|
 | 10.73.0.0/16 | local |
-| 0.0.0.0/0    | NLC-IGW |
+| 0.0.0.0/0  | NLC-IGW |
 
 The local route handles traffic within the VPC and the default route send traffic to destinations outside the VPC via the internet gateway.
 
