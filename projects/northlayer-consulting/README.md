@@ -13,7 +13,7 @@ The purpose is to practice AWS Networking concepts.
 
   ## At this stage it looks like this
 
-[Northlayer Consulting AWS network](diagrams/architecture.png)
+![Northlayer Consulting AWS network](diagrams/architecture.png)
 
 Subnet intended for public access: 
 
