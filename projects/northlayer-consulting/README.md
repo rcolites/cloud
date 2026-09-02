@@ -11,7 +11,7 @@ The purpose is to practice AWS Networking concepts.
 - Region: 'eu-north-1'
 - Ipv4 CIDR: '10.73.0.0/16'
 
-  At this stage it looks like this
+  ## At this stage it looks like this
 
 [Northlayer Consulting AWS network](diagrams/architecture.png)
 
