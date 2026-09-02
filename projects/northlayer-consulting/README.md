@@ -10,6 +10,15 @@ The purpose is to practice AWS Networking concepts.
 - VPC: `NorthlayerConsulting-vpc1`
 - Region: `eu-north-1`
 - Ipv4 CIDR: `10.73.0.0/16`
+- Created an Internet Gateway `NLC-IGW1` and attached it to `NorthlayerConsulting-vpc1`
+- Created route table `NLC-RT-Public`, added the default internet route to `NLC-IGW1` and associated both public subnets
+
+| Destination | Target |
+|-------------|--------|
+| 10.73.0.0/16 | local |
+| 0.0.0.0/0    | NLC-IGW |
+
+The local route handles traffic within the VPC and the default route send traffic to destinations outside the VPC via the internet gateway.
 
   ## At this stage it looks like this
 
