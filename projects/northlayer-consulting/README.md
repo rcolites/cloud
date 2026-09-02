@@ -35,6 +35,12 @@ Subnet intended for public access:
 - Attached the security group `NLC-SG-Web` which allows HTTP from the internet and SSH from my public IP
 - Connected over SSH, installed Apache and created a simple webpage, enabled Apache to start automatically after a reboot
 
+## Automated deployment of the second EC2 instance
+
+- Launched a second instance named `NLC-Web-02` with a user-data script that installs Apache, creates the webpage, and enables Apache to start after a reboot
+- Verified the deployment by opening the instance's public IPv4 address in my browser, the webpage loaded without the manual configuration over SSH from above
+- Script available in [scripts/user-data.sh](scripts/user-data.sh).
+
 ## Verification
 
 I opened the instance's public IPv4 address in my browser
