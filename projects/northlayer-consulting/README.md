@@ -11,6 +11,10 @@ The purpose is to practice AWS Networking concepts.
 - Region: 'eu-north-1'
 - Ipv4 CIDR: '10.73.0.0/16'
 
+  At this stage it looks like this
+
+[Northlayer Consulting AWS network](diagrams/architecture.png)
+
 Subnet intended for public access: 
 
 - Public subnet 1 in 'eu-north-1a' AZ: 'NLC-SubnetPublic-AZ1a', '10.73.11.0/24'
