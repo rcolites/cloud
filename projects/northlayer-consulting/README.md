@@ -22,7 +22,7 @@ The local route handles traffic within the VPC and the default route send traffi
 
   ## At this stage it looks like this
 
-![Northlayer Consulting AWS network](diagrams/architecture2.png)
+![Northlayer Consulting AWS network](diagrams/architecture3.png)
 
 Subnet intended for public access: 
 
