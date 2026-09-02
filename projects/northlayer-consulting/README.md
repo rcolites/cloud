@@ -41,7 +41,7 @@ I opened the instance's public IPv4 address in my browser
 using HTTP and confirmed that the Northlayer Consulting
 webpage loaded.
 
-
+![Northlayer Consulting AWS network](diagrams/webserver.png)
 
 ## Naming convention
 
